@@ -1,0 +1,52 @@
+<html>
+<head>
+    <title>404 - Page Not Found</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;700&display=swap" rel="stylesheet">
+</head>
+<style>
+    body {
+        font-family: 'Nunito', sans-serif;
+        font-weight: 300;
+        text-align: center;
+    }
+    .errPage_container {
+        position: relative;
+        top: 20vh;
+        height: 80vh;
+        width: 100%;
+    }
+    .head_img{
+        position: relative;
+        top:0;
+        height: 20vh;
+    }
+    .head_img img{ height: 45vh;}
+    .errPage_container h1 {font-size: 6vw;margin-bottom: 0.1em;}
+    .errPage_container h2 {font-size: 4vw;}
+    .errPage_container h3 {font-size: 2vw;}
+    .errPage_container button{
+        font-weight: 700;
+        text-decoration: none;
+        color: #fff;
+        padding: 1vw 2vw;
+        margin: 0.1vw;
+        background: #ff6300;
+        font-size: 3vw;
+    }
+</style>
+<body>
+    <div class=head_img>
+        <img src="https://cloud.akivn.net/img/404.jpg";>
+    </div>
+    <div class=errPage_container>
+        <h2>404 - Page not found!</h2>
+        <h3>Không tìm thấy trang này!</h3>
+        
+        <button onclick="history.go(-1)">GO BACK</button>
+        <hr>
+        <a href="/">Go to HomePage</a>
+    </div>
+</body>
+</html>

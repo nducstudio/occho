@@ -1,0 +1,68 @@
+.button {
+    text-decoration: none !important;
+    color: initial;
+    background-color: #E02222;
+    border: 1px solid rgba(0,0,0,.7) !important;
+    border-top-color: rgb(255 255 255 / 53%) !important;
+    border-radius: 10px !important;
+    box-shadow: 0px 0px 4px 0px #000 !important;
+    padding: 5px;
+    transition: 0.6s;
+    }
+.button:hover {
+    background-color: #FF6644 !important;
+    color: white;
+    box-shadow: 0px 0px 6px 2px #FFF !important;
+    }
+body {
+    font-family: 'Arsenal';font-size: 20px;
+    }
+
+.aki-nav-btn {
+    border-radius: 10px !important;
+    background-color: #ef4138;
+    padding:7px !important;
+    margin-top: 7px;
+    color: yellow!important;
+    transition: 0.7s;
+}
+.loli-content { /* Nội dung của mỗi bản loli */
+    position: relative;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    background-color: #99A5AB;
+}
+.loli-element { /* Nội dung của mỗi thành phần trong một bản loli */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    color: #f8f9fa!important;
+    text-align: center!important;
+    padding: 0.5rem;
+    background-color: #6c757d;
+    margin-bottom: 20px;
+}
+
+.loli-patches {
+    background-color: #7d757d !important;
+}
+
+.loli-node {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    background-color: #f8f9fa!important;
+    text-align: left!important;
+    color: #343a40!important;
+}
+
+}
